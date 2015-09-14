@@ -4,12 +4,16 @@
 
 GameProcessor:: GameProcessor()
 {
-	G= new StateGraph();
+	G= new StateGraph(); // starts all the colors of each vertex (state to white already) and predecessor to null;
+	TIME=0;
 }
 
 bool GameProcessor::  DFS()
 {
-	while (G->stateNode!=0)
+	while (G->getCurrentNode()!=0)
+	{
+		
+	}
 	return true;	
 }
 

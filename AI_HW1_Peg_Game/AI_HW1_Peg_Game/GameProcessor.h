@@ -22,6 +22,8 @@ class GameProcessor
 		
 		StateGraph * G;
 		//int nPeg,startX,startY,endX,endY;	// coordinates to be filled by user input;
+		
+		int TIME;
 
 		public:
 			GameProcessor();

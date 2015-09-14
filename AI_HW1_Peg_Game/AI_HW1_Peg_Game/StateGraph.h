@@ -25,7 +25,7 @@ class StateGraph: public State
 
 		State * next;
 		State * stateNode;	// Node simulating the game state nodes;
-		State * predecessor;
+		//State * predecessor;
 
 		public:
 			StateGraph();

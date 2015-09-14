@@ -1,5 +1,0 @@
-// Pseudo Code for N-Peg Game solution;
-
-	STG= buildBoard(n,ns_xy[],nf_xy[]);	// By default there is first move;
-	
-	vst= 

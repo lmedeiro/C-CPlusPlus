@@ -19,18 +19,23 @@ using namespace std;
  */
 class State
 	{
-			State * next;
-			bool color;
+			//State * next;
+			short int color;	// 0=white;1=gray;2=black;
 			int time;
 			int d;
 			int ft;
 			static int moveIt;
+			State * predecessor;
 
 			
 		public:
 			State();
 			State * makeMove(State);
 			State * buildBoard(int,int start [],int end []);	// n peg game, start vector, end vector
+			void setTime(int);
+			void setColor(short int);
+			void setFT(int);
+			void setD(int);
 			
 		private:
 			

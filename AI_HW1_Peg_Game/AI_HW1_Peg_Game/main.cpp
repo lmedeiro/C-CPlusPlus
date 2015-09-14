@@ -34,12 +34,13 @@ int main ()
 	
 	runGame.DFS(STG);	// starting the game ;
 	*/
-	helloFunc();
-	int * pa= new int[2];
-	*pa=10;
-	*(pa+1)=20;
-	cout <<"value of pa[0] "<<*pa<<endl;
-	cout <<"value of pa[1] "<<*(pa+1)<<endl;
+	//helloFunc();
+	//int * pa= new int[2];
+	//*pa=10;
+	//*(pa+1)=20;
+	//cout <<"value of pa[0] "<<*pa<<endl;
+	//cout <<"value of pa[1] "<<*(pa+1)<<endl;
+	cout << " THIS PROGRAM IS STILL UNDER DEVELOPMENT;"<<endl;
 	getchar();
 	return 0;
 		

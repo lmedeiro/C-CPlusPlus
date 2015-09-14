@@ -1,23 +1,18 @@
-﻿Build started 9/14/2015 01:20:13.
-     1>Project "E:\dev\C-C++\AI\AI_HW1_Peg_Game\AI_HW1_Peg_Game\AI_HW1_Peg_Game.vcxproj" on node 2 (build target(s)).
+﻿Build started 9/14/2015 02:34:46.
+     1>Project "E:\dev\C-C++\C-CPlusPlus\AI_HW1_Peg_Game\AI_HW1_Peg_Game\AI_HW1_Peg_Game.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\AI_HW1_Peg_Game.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GameProcessor.cpp State.cpp StateGraph.cpp main.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GameProcessor.cpp StateGraph.cpp main.cpp
+         main.cpp
          StateGraph.cpp
          Generating Code...
-         Compiling...
-         GameProcessor.cpp
-         Generating Code...
-         Compiling...
-         main.cpp
-         Generating Code...
          Skipping... (no relevant changes detected)
-         State.cpp
+         GameProcessor.cpp
        ManifestResourceCompile:
          All outputs are up-to-date.
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\dev\C-C++\AI\AI_HW1_Peg_Game\Debug\AI_HW1_Peg_Game.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\AI_HW1_Peg_Game.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\dev\C-C++\AI\AI_HW1_Peg_Game\Debug\AI_HW1_Peg_Game.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\dev\C-C++\AI\AI_HW1_Peg_Game\Debug\AI_HW1_Peg_Game.lib" /MACHINE:X86 Debug\AI_HW1_Peg_Game.exe.embed.manifest.res
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\dev\C-C++\C-CPlusPlus\AI_HW1_Peg_Game\Debug\AI_HW1_Peg_Game.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\AI_HW1_Peg_Game.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\dev\C-C++\C-CPlusPlus\AI_HW1_Peg_Game\Debug\AI_HW1_Peg_Game.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\dev\C-C++\C-CPlusPlus\AI_HW1_Peg_Game\Debug\AI_HW1_Peg_Game.lib" /MACHINE:X86 Debug\AI_HW1_Peg_Game.exe.embed.manifest.res
          Debug\GameProcessor.obj
          Debug\main.obj
          Debug\State.obj
@@ -27,12 +22,12 @@
          All outputs are up-to-date.
        LinkEmbedManifest:
          All outputs are up-to-date.
-         AI_HW1_Peg_Game.vcxproj -> E:\dev\C-C++\AI\AI_HW1_Peg_Game\Debug\AI_HW1_Peg_Game.exe
+         AI_HW1_Peg_Game.vcxproj -> E:\dev\C-C++\C-CPlusPlus\AI_HW1_Peg_Game\Debug\AI_HW1_Peg_Game.exe
        FinalizeBuildStatus:
          Deleting file "Debug\AI_HW1_Peg_Game.unsuccessfulbuild".
          Touching "Debug\AI_HW1_Peg_Game.lastbuildstate".
-     1>Done Building Project "E:\dev\C-C++\AI\AI_HW1_Peg_Game\AI_HW1_Peg_Game\AI_HW1_Peg_Game.vcxproj" (build target(s)).
+     1>Done Building Project "E:\dev\C-C++\C-CPlusPlus\AI_HW1_Peg_Game\AI_HW1_Peg_Game\AI_HW1_Peg_Game.vcxproj" (build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.64
+Time Elapsed 00:00:01.00
