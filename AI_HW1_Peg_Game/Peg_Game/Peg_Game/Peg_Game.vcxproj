@@ -11,16 +11,18 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\GameProcessor.cpp" />
-    <ClCompile Include="..\..\main.cpp" />
-    <ClCompile Include="..\..\State.cpp" />
-    <ClCompile Include="..\..\StateGraph.cpp" />
+    <ClCompile Include="GameProcessor.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Peg.cpp" />
+    <ClCompile Include="State.cpp" />
+    <ClCompile Include="StateGraph.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\GameProcessor.h" />
-    <ClInclude Include="..\..\main.h" />
-    <ClInclude Include="..\..\State.h" />
-    <ClInclude Include="..\..\StateGraph.h" />
+    <ClInclude Include="GameProcessor.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="Peg.h" />
+    <ClInclude Include="State.h" />
+    <ClInclude Include="StateGraph.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{67995CA3-72A9-4894-A289-D68AC4342115}</ProjectGuid>
