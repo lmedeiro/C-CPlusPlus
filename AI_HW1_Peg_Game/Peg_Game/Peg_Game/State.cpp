@@ -38,9 +38,14 @@ State * State:: buildBoard(int n,int start [],int end [])
 {
 	int x = 0, y = 0, ix = 0, iy = 0;
 	short int siz = (n*n + n) / 2;	// will always be an even number divided by an even number;
+	//
 	peg0 = new Peg();
 
-	// need to finish the algorithm
+	// In order find to every position from the cartesian coordinates and vice versa, the 
+	// the following equation may be used:
+	// Element #= ((y-1)^2+(y-1))/2 +x, considering that x and y are >=1;
+	// Thus consider that these indexes are calculated starting at 1;
+
 	while (y < n)
 	{
 		while (x < n)
