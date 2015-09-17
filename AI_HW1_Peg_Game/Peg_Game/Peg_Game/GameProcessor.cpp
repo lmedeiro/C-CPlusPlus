@@ -39,8 +39,25 @@ bool GameProcessor:: visit_next(StateGraph * STG, State * v)
 	v->setColor(1);
 	time = time + 1;
 	v->setD(this->time);
-	
+	nextState = STG->addG(STG->getCurrentNode()->makeMove());
+	STG->setNext(nextState);
+	while (STG->getNext() != 0)
+	{
+		if (STG->getNext()->getColor() == 0)	// if color of the first neighbor is white, then visit that neighbor;
+		{
+			// the goal is then to visit the each subsequent state that is viable and check if it is the end state;
+			// until there are no possibilities within this branch, then back track until there is a possibility for another branch.
+			// continuously do this until the solution may be found;
+			STG->getNext()->setPred(STG->getCurrentNode()); // setting the predecessor link so it
+			// may be traced later;
+			visit_next(STG, STG->getNext());
 
+		}
+	}
+	v->setColor(2);
+	time = time + 1;
+	v->setFT(time);
+	
 	return true;
 }
 	

@@ -26,6 +26,7 @@ class StateGraph: public State
 		State * next;
 		State * rootState;
 		State * stateNode;	// Node simulating the game state nodes;
+		State * endState;
 		//State * predecessor;
 
 		public:
@@ -35,6 +36,8 @@ class StateGraph: public State
 			State * getNext();
 			void setCurrentState(State * s);
 			void setNext(State * s);
+			void setNextPred(State * s);
+			bool checkEndState();
 		
 		private:
 		

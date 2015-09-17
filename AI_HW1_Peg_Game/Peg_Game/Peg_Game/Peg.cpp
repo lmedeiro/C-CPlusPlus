@@ -11,6 +11,7 @@ Peg::Peg()
 		succ[i] = 0;
 		pred[i] = 0;
 		neighb[i] = 0;
+		i++;
 	}
 	pegData = true;
 
@@ -24,4 +25,18 @@ bool Peg::getPegData()
 void Peg::setPegData(bool p)
 {
 	pegData = p;
+}
+
+Peg & Peg:: operator=(Peg other)
+{
+	unsigned short i = 0;
+	while (i < 2)
+	{
+		succ[i] = other.succ[i];
+		pred[i] = other.pred[i];
+		neighb[i] = other.neighb[i];
+		i++;
+	}
+	pegData = other.pegData;
+	return *this;
 }

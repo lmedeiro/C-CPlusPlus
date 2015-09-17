@@ -40,6 +40,11 @@ int main ()
 	//*(pa+1)=20;
 	//cout <<"value of pa[0] "<<*pa<<endl;
 	//cout <<"value of pa[1] "<<*(pa+1)<<endl;
+	//int a[2] = { 0, 1 };
+	//pa = a;
+	//int b[2] = { 2, 3 };
+	//cout <<"value of pa[0] "<<pa+1<<endl;
+	
 	cout << " THIS PROGRAM IS STILL UNDER DEVELOPMENT;"<<endl;
 	getchar();
 	getchar();
